@@ -35,9 +35,9 @@ To install the Mywordbook Node application, follow these steps:
    
 ### Screenshots
 1. **Home Page**:
-   ![Home Page](screenshots/home.png)
+   ![Home Page](Screenshots/home.png)
 2. **Recent Words**:
-   ![Recent Words](screenshots/recent.png)
+   ![Recent Words](Screenshots/recent.png)
 3. **Login and Register**:
-   ![Login and Register](screenshots/login.png)
-   ![Login and Register](screenshots/register.png)
+   ![Login and Register](Screenshots/login.png)
+   ![Login and Register](Screenshots/register.png)
