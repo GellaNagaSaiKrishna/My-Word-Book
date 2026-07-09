@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "userid": 2,
+    "word": "Hard work",
+    "meaningG": "Working hard",
+    "meaning": "Donkey"
+  },
+  {
+    "id": 2,
+    "userid": 3,
+    "word": "Refactoring",
+    "meaningG": "The process of restructuring existing computer code without changing its external behavior to improve readability and reduce complexity.",
+    "meaning": "Cleaning up my messy code and organizing my files so my future self doesn't get a headache trying to read it."
+  }
+]

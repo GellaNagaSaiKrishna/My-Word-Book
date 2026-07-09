@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logging Out</title>
+    <script>
+
+        deleteCookies();
+        
+        function deleteCookies() { 
+                var allCookies = document.cookie.split(';');
+
+                for (var i = 0; i < allCookies.length; i++) {
+                    var cookieName = allCookies[i].split('=')[0].trim();
+                    document.cookie = cookieName + "=;expires=" + new Date(0).toUTCString() + ";path=/";
+                }
+  
+            }; 
+            setTimeout(function() {
+                window.location.href = "signin.html";
+            }, 500);
+        </script>
+
+</head>
+<body>
+    
+</body>
+</html>
